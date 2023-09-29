@@ -1,0 +1,26 @@
+.image{
+  height: 252px !important;
+
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+
+  .cursor{
+    cursor: pointer;
+  }
+
+
+.done{
+  position: absolute;
+  width: 500px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
